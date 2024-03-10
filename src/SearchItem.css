@@ -1,0 +1,22 @@
+/* SearchItem.css */
+.out-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search-bar {
+  padding: 10px;
+  width: 300px;
+  border-radius: 25px;
+  border: 2px solid #ccc;
+  font-size: 18px;
+  outline: none;
+  transition: border-color 0.3s;
+  text-align: center;
+}
+
+.search-bar:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+}

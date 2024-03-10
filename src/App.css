@@ -1,0 +1,106 @@
+/* Header.css */
+.header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  border-bottom: 2px solid #0056b3;
+}
+
+/* AddItem.css */
+.add-item {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.add-item input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  border-radius: 20px;
+  border: 2px solid #ccc;
+  font-size: 16px;
+  outline: none;
+}
+
+.add-item input[type="text"]:focus {
+  border-color: #007bff;
+}
+
+.add-item button {
+  padding: 12px 24px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.add-item button:hover {
+  background-color: #218838;
+}
+
+/* SearchItem.css */
+.search-item {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.search-item input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  border-radius: 20px;
+  border: 2px solid #ccc;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-item input[type="text"]:focus {
+  border-color: #007bff;
+}
+
+/* Content.css */
+.content {
+  margin-top: 20px;
+}
+
+.content .item {
+  padding: 20px;
+  border-bottom: 2px solid #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.content .item:last-child {
+  border-bottom: none;
+}
+
+.content .item span {
+  margin-right: 20px;
+}
+
+.content .item button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.content .item button:hover {
+  background-color: #c82333;
+}
+
+/* Footer.css */
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+}

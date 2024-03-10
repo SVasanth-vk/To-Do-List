@@ -1,0 +1,36 @@
+/* ItemList.css */
+.out-list{
+  display: flex;
+  justify-content: center;
+}
+.list {
+  list-style: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px; /* Reduce width */
+  display: flex; /* Align items straightly */
+  align-items: center;
+  justify-content: space-between; /* Align items horizontally */
+}
+
+.check-box {
+  margin-right: 10px;
+}
+
+.item-name {
+  margin-right: 10px;
+}
+
+.del {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.del:hover {
+  background-color: #c82333;
+}

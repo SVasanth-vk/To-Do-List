@@ -1,0 +1,12 @@
+/* EmptyListMessage.css */
+.empty-list {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+  }
+  

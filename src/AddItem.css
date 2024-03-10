@@ -1,0 +1,33 @@
+/* AddItem.css */
+.out-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .add-item {
+    padding: 10px;
+    width: 300px;
+    border-radius: 20px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 10px;
+    outline: none;
+  }
+  
+  .add-btn {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .add-item-button:hover {
+    background-color: #0056b3;
+  }
+  
